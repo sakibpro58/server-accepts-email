@@ -21,7 +21,7 @@
   "main": "build/index.js",
   "types": "index.d.ts",
   "scripts": {
-    "prepare": "tsc",
+    "prepare": "tsc",  // Compile TypeScript files
     "test": "npm run prepare && mocha && ts-readme-generator --check",
     "start": "ts-node build/index.js"
   },
